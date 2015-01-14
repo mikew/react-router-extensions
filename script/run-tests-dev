@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+node_modules/.bin/jasmine-node --autotest --watch src/ --watch spec/ --color spec/

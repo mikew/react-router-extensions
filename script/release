@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+oldpwd="$PWD"
+tmpdir="$(mktemp -d -t react-router-extensions)"
+
+pushd "$tmpdir"
+  cp -a "$oldpwd" .
+  cd react-router-extensions
+  node_modules/.bin/jsx --harmony --strip-types src/ .
+popd
+
+rm -rf "$tmpdir"

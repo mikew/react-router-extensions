@@ -1,0 +1,30 @@
+{
+  "name": "react-router-extensions",
+  "version": "1.0.0",
+  "description": "Add your own route builders to ReactRouter",
+  "main": "index.js",
+  "scripts": {
+    "test": "./script/run-tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/raisedmedia/react-router-extensions.git"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "transform",
+    "collection",
+    "model",
+    "namespace"
+  ],
+  "author": "Mike Wyatt <wyatt.mike@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.2",
+    "react-router": "^0.11.6",
+    "react-tools": "^0.12.2"
+  }
+}
