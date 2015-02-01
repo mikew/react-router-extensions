@@ -22,9 +22,13 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine-node": "^1.14.5",
+    "jshint-jsx": "^0.4.0",
     "node-jsx": "^0.12.4",
     "react": "^0.12.2",
     "react-router": "^0.11.6",
     "react-tools": "^0.12.2"
+  },
+  "dependencies": {
+    "object-assign": "^2.0.0"
   }
 }

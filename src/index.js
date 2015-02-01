@@ -1,4 +1,5 @@
 var refs = require('./refs')
+Object.assign = require('object-assign')
 
 function setup (opts) {
   opts = opts || {}

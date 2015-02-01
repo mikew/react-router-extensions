@@ -4,7 +4,7 @@ var FakeNode = {
   }
 }
 
-var CollectionRoute = React.createClass({
+var CollectionRoute = React.createClass({ // jshint ignore:line
   mixins: [FakeNode],
 
   getDefaultProps () {
@@ -14,15 +14,15 @@ var CollectionRoute = React.createClass({
   }
 })
 
-var ModelRoute = React.createClass({
+var ModelRoute = React.createClass({ // jshint ignore:line
   mixins: [FakeNode]
 })
 
-var ModelRoutes = React.createClass({
+var ModelRoutes = React.createClass({ // jshint ignore:line
   mixins: [FakeNode]
 })
 
-var NamespaceRoute = React.createClass({
+var NamespaceRoute = React.createClass({ // jshint ignore:line
   mixins: [FakeNode]
 })
 
